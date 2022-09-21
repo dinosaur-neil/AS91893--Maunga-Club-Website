@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width. initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0ea7adcedc.js" crossorigin="anonymous"></script>
+    <title>Maunga Club</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap"  rel="stylesheet">
+</head>
+<body>
+<section class="sub-header3">
+    <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links">
+            <ul>
+                <li><a href="index.html">HOME <i class="fa-sharp fa-solid fa-house-user"></i></a></li>
+                <li><a href="about.html">ABOUT <i class="fa-sharp fa-solid fa-book"></i></a></li>
+                <li><a href="chalets.html">CHALETS <i class="fa-sharp fa-solid fa-tents"></i></a></li>
+                <li><a href="contact.html">CONTACT <i class="fa-sharp fa-solid fa-phone" style="font-size:20px;color:red"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+ </section>
+
+ <div class="text-box">
+    <h2>Our Contacts/Join Page</h1>
+</div>
+ <!------ Map of Mountain Area ------>
+
+ <section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40225.62775417062!2d174.
+    03910798451128!3d-39.292047530871294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d
+    15b0517747d98d%3A0xb4bd6905b2ed0ef9!2sMt.%20Taranaki!5e0!3m2!1sen!2snz!4v1661860448942!5m2!
+    1sen!2snz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+ </section>
+ 
+<!------ Register Form ------>
+
+ <section class="contact-us"> 
+          
+     <div class="contact-col">
+
+            <form action="">
+                <h3>Register as club member <i class="fa fa-flag"></i><br><br></h3>
+                <h5>Enter All the Following Details</h5>
+                <input type="text" placeholder="Enter Your Full Name" required>
+                <input type="text" placeholder="Enter Physical Address" required>
+                <h6>Proof Of Address(eg copy of power bill) <i class="fa fa-file-image-o" style="font-size:20px;color: red;"></i>
+                </button></h6>
+                <input type="file" required></input>
+                <h6>Proof Of ID (driver’s license or passport) <i class="fa fa-file-photo-o" style="font-size:20px;color: red;"></i></h6>
+                <input type="file" required></input>
+                <button type="submit" class="hero-btn red-btn">Register</button>
+            </form>           
+ </div>
+     </div>
+
+<!----- Animated Click Effect to keep users satisfied ------->
+
+     <div class="my-hero">
+        <button class="btn" id="btn">Thank you for visiting!  <i class="fa-sharp fa-solid fa-heart"></i>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+      </button>
+     </div>
+
+<script>
+
+    let btn = document.getElementById("btn");
+    let spans = document.getElementsByTagName("span");
+
+    btn.onclick = function(){
+        for(span of spans){
+            span.classList.add("anim");
+        }
+        setTimeout(function(){
+           for(span of spans){
+           span.classList.remove("anim");
+        }    
+        },500)
+    } 
+
+</script>    
+             <div>
+                 <span> 
+                 </span>
+             </div>
+         </div> 
+ </section>
+
+<!------ Footer to protect the content from theft ------>
+
+ <section class="footer">
+    <h4>About our website pages</h4>
+     <p>Here you'll get access to all our information on our chalets (cabins) features, views and images inside.
+     <br>plus you'll be able to become a member of our club by using the contact form on this website.</p>
+</section>
+
+<section class="footer2">
+    <small><br>&copy; Maunga Club
+    2022 - Website by Neil Whippy
+    Inc.</small>
+</section>
+
+</body>
+</html>

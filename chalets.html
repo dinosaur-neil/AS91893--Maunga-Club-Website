@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width. initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0ea7adcedc.js" crossorigin="anonymous"></script>
+    <title>Maunga Club</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap"  rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+</head>
+<section>
+<section class="sub-header2">
+    <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links">
+            <ul>
+                <li><a href="index.html">HOME <i class="fa-sharp fa-solid fa-house-user"></i></a></li>
+                <li><a href="about.html">ABOUT <i class="fa-sharp fa-solid fa-book"></i></a></li>
+                <li><a href="chalets.html">CHALETS <i class="fa-sharp fa-solid fa-tents" style="font-size:20px;color:red"></i></a></li>
+                <li><a href="contact.html">CONTACT <i class="fa-sharp fa-solid fa-phone"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="text-box">
+        <h2>Maunga Club Chalets</h2>
+    </div>    
+ </section>
+
+<!----- Chalets displayed------>
+
+<section class="our-chalets">
+    <h1>Our Image gallery of the chalets<br>(inside & outside)</h1><br><br>
+  
+
+
+<div class="container"> 
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="images/kakapo-chalet.png"></div>
+      <div class="swiper-slide"><img src="images/kakapo-bunker.png"></div>
+      <div class="swiper-slide"><img src="images/kakapo-hallway.png"></div>
+      <div class="swiper-slide"><img src="images/kakapo-view.png"></div>
+      <div class="swiper-slide"><img src="images/pukeko-chalet.png"></div>
+      <div class="swiper-slide"><img src="images/pukeko-bed.png"></div>
+      <div class="swiper-slide"><img src="images/pukeko-bathroom.png"></div>
+      <div class="swiper-slide"><img src="images/pukeko-view.png"></div>
+      <div class="swiper-slide"><img src="images/kereru-chalet.png"></div>
+      <div class="swiper-slide"><img src="images/kereru-kids.png"></div>
+      <div class="swiper-slide"><img src="images/kereru-adult.png"></div>
+      <div class="swiper-slide"><img src="images/kereru-kitchen.png"></div>
+      <div class="swiper-slide"><img src="images/kereru-view.png"></div>
+    
+     
+
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+  </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+<script>
+    const swiper = new Swiper('.swiper', {
+      autoplay: {
+        delay: 3000,
+        disableOneInteraction: false,
+      },
+    loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+
+</script>
+
+<!------ chalet information ------->
+
+<br><br><br><h4>Once you've become a member of our club you'll get access to our amazing chalets!</h4>
+
+<div class="row">
+    <div class="our-chalets-col">
+        <img src="images/kakapo-chalet.png">
+        <h3>Kākāpo</h3>
+        <p>Our largest chalet<br>Fits a maximum of 10 Adults & 30 Children</p>
+    </div>
+    <div class="our-chalets-col">
+        <img src="images/pukeko-chalet.png">
+        <h3>Pūkeko</h3>
+        <p>Great for large groups/families<br>Fits a maximum of 6 Adults & 15 Children</p>
+    </div>
+    <div class="our-chalets-col">
+        <img src="images/kereru-chalet.png">
+        <h3>Kererū</h3>
+        <p>Our smallest chalet<br>Fits a maximum of 2 Adults & 4 Children</p>
+    </div>
+</div>
+</section>
+
+<section class="chalet">
+    <h1>Chalet (Cabins) options to choose from</h1>
+    <p>here are some features about each of our 3 chalets</p>
+
+    <div class="row">
+        <div class="chalet2-col">
+            <h3>Kākāpo</h3>
+            <p>- Our Kākāpo chalet is the Largest of the chalets you'll be able to hire as a member.<br><br>
+             - It features a Large kitchen, dining and living area for you.<br><br>
+             - What truly makes it amazing is that it provides everyone comfort, convenience, and pleasure.</p>
+        </div>
+        <div class="chalet2-col">
+            <h3>Pūkeko</h3>
+            <p>- Our Pūkeko chalet is Great for people coming in large groups/families wanting a chalet to themselves.<br><br>
+            - This limits on adult/child quantity  to ensure you guys a nice comfortable stay.</p>
+        </div>
+        <div class="chalet2-col">
+            <h3>Kererū</h3>
+            <p>- Our Kererū chalet is a greatest option for a small family<br><br> 
+            - This Chalet has 2 nice and comfy bedrooms to ensure a nice cosy rest.<br><br> 
+            - This Perfect for families with 2-4children based on the size of the chalet.<br><br>
+            - This features a Separate living area filled with a nice coach, skis and a dinning table.</p>
+        </div>
+    </div>
+ </section>
+
+ <section class="chalet-info">
+    <div class="row2">
+        <div class="chalet-info-col">
+            <h3>More Info</h3>
+            <p>Only Club members can access the chalets.<br><br>
+               All chalet bookings must be from Friday to Sunday.<br><br>
+               Chalets offer shared accommodation for between 6 and 40 people per chalet.<br><br>
+               All three chalets are on the mountain, so you can ski to and from the chalets.<br><br>
+               The mountain gives 550 hectares of skiing/snowboarding area, and the longest  
+               ski/snowboard season in New Zealand.<br><br>
+               The table below summarizes key features of the three chalets, including the
+               maximum number of adults and children that each chalet can accommodate.<br><br></p>
+        </div>
+    </div>
+ </section>
+
+<!------ Footer to protect the content from theft ------>
+
+ <section class="footer">
+     <h4><br><br><br><br>About our website pages</h4>
+     <p>Here you'll get access to all our information on our chalets (cabins) features, views and images inside.
+     <br>plus you'll be able to become a member of our club by using the contact form on this website.</p>
+</section>
+
+<section class="footer2">
+    <small><br>&copy; Maunga Club
+    2022 - Website by Neil Whippy
+    Inc.</small>
+</section>
+
+</body>
+</html>
